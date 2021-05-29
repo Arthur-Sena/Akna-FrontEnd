@@ -1,0 +1,88 @@
+.navHome {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+
+.inputBuscar {
+  width: 70vw;
+  height: 5vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+  outline: none;
+}
+
+.divMain {
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: #fafafa;
+}
+
+.divLista{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.btnEvent {
+    background-color: white;
+    border: none;
+}
+
+.infoLivro {
+  background-color: white;
+  padding: 5px;
+  width: 160px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: grey;
+  border-width: 1px;
+  margin-top: 4vh;
+}
+
+
+.capaLivro{
+  margin-top: 3px;
+  height: 220px;
+  width: 150px;
+  filter: drop-shadow(2px 4px 8px #585858);
+}
+
+@media (max-width:600px){
+
+  .divMain {
+    padding: 10px;
+  }
+
+  .divLista{
+    justify-content: space-evenly;
+  }
+
+  .infoLivro {
+    width: 40vw;
+  }
+
+  .capaLivro{
+    width:149px;
+    height: 223px;
+  }
+
+  .descricaoLivro{
+    height: 6vh;
+  }
+}
+
+@media (max-width:375px){
+  .capaLivro{
+    width:135px;
+    height: 202px;
+  }
+}

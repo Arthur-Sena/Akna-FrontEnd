@@ -1,0 +1,28 @@
+.divFormAtualizar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divAtualizarLivro{
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    background-color:rgba(f,f,f,f.2);
+    margin-left: 8vw;
+    width: 80vw;
+}
+
+.labelLivro{
+    font-size: larger;
+    color: var(--laranja-claro);
+    font-weight: bold;
+    margin-top: 8vh;
+    /* margin-left: 1.8vw; */
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
